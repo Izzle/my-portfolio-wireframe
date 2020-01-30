@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ron Martin // Web Developer</title>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4b987bd6a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a class="logo-background" href="./index.html"> <!-- This link goes back to the home page -->
+            <img id="logo-image" src="./images/letter_R.jpg" alt="The letter R, but its very ugly">
+        </a>
+        <i id="mobile-nav-hamburger" class="fas fa-bars"></i>
+    </header>
+    <nav class="hidden nav-bar">
+            <a href="./index.html" class="nav-icons"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="./about.html" class="nav-icons"><i class="far fa-user"></i><span>About</span></a>
+            <a href="./portfolio.html" class="nav-icons"><i class="fas fa-code"></i><span>Projects</span></a>
+            <a href="./contact.html" class="nav-icons"><i class="far fa-envelope"></i><span>Contact</span></a>
+    </nav>
+    <main class="project-page">
+        <section class="project-container">
+            <div>
+                <a href="https://thinkful-ei-leopard.github.io/ron-bookmarks-app/" target="_blank">
+                    <img src="./images/portfolio_Bookmark_App.png" alt="A screenshot of a Bookmark App by Ron Martin">
+                </a>
+                <div class="project-button-container">
+                    <!-- I need to either increase the width that is clickable on the anchor tag or wrap the button inside the anchor
+                        because right now you have to click the FontAwesome icon in order to use the link-->
+                    <a href="https://thinkful-ei-leopard.github.io/ron-bookmarks-app/" target="_blank"><button><i class="fas fa-desktop"></i></button></a>
+                    <a href="https://github.com/thinkful-ei-leopard/ron-bookmarks-app/tree/gh-pages" target="_blank"><button><i class="fab fa-github"></i></button></a>
+                </div>
+            </div>
+            <div>
+                <p>A client-side Bookmarking application that utilizes a RESTful Web API on the backend. The app allows you to create, rate, title, and filter your favorite bookmarks.</p>
+                <p>It was built withJavascript, jQuery, HTML, and CSS.</p>
+            </div>
+        </section>
+
+        <section class="project-container">
+            <div>
+                <a href="https://thinkful-ei-leopard.github.io/Keir_Ron_Quiz_App/" target="_blank">
+                    <img src="./images/portfolio_Quiz_App.png" alt="Screenshot of the Dungeons and Dragons Quiz App by Ron Martin">
+                </a>
+                <div class="project-button-container">
+                    <a href="https://thinkful-ei-leopard.github.io/Keir_Ron_Quiz_App/" target="_blank"><button><i class="fas fa-desktop"></i></button></a>
+                    <a href="https://github.com/thinkful-ei-leopard/Keir_Ron_Quiz_App" target="_blank"><button><i class="fab fa-github"></i></button></a>
+                </div>
+            </div>
+            <div>
+                <p>The Unofficial Dungeons and Dragons Quiz App is a project for the Thinkful coding bootcamp. The project was completed using Pair Programming.</p>
+                <p> It was built with Javascript, jQuery, HTML, and CSS.</p>
+            </div>
+        </section>
+        <section class="project-container">
+            <div>
+                <a href="https://thinkful-ei-leopard.github.io/ron-bookmarks-app/" target="_blank">
+                    <img src="./images/portfolio_Bookmark_App.png" alt="A screenshot of a Bookmark App by Ron Martin">
+                </a>
+                <div class="project-button-container">
+                    <!-- I need to either increase the width that is clickable on the anchor tag or wrap the button inside the anchor
+                        because right now you have to click the FontAwesome icon in order to use the link-->
+                    <a href="https://thinkful-ei-leopard.github.io/ron-bookmarks-app/" target="_blank"><button><i class="fas fa-desktop"></i></button></a>
+                    <a href="https://github.com/thinkful-ei-leopard/ron-bookmarks-app/tree/gh-pages" target="_blank"><button><i class="fab fa-github"></i></button></a>
+                </div>
+            </div>
+            <div>
+                <p>A client-side Bookmarking application that utilizes a RESTful Web API on the backend. The app allows you to create, rate, title, and filter your favorite bookmarks.</p>
+                <p>It was built withJavascript, jQuery, HTML, and CSS.</p>
+            </div>
+        </section>
+
+        <section class="project-container">
+            <div>
+                <a href="https://thinkful-ei-leopard.github.io/Keir_Ron_Quiz_App/" target="_blank">
+                    <img src="./images/portfolio_Quiz_App.png" alt="Screenshot of the Dungeons and Dragons Quiz App by Ron Martin">
+                </a>
+                <div class="project-button-container">
+                    <a href="https://thinkful-ei-leopard.github.io/Keir_Ron_Quiz_App/" target="_blank"><button><i class="fas fa-desktop"></i></button></a>
+                    <a href="https://github.com/thinkful-ei-leopard/Keir_Ron_Quiz_App" target="_blank"><button><i class="fab fa-github"></i></button></a>
+                </div>
+            </div>
+            <div>
+                <p>The Unofficial Dungeons and Dragons Quiz App is a project for the Thinkful coding bootcamp. The project was completed using Pair Programming.</p>
+                <p> It was built with Javascript, jQuery, HTML, and CSS.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="https://github.com/Izzle" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ron-martin-5b027319a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:ronmartin89@gmail.com"><i class="fas fa-at" target="_blank"></i></a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
